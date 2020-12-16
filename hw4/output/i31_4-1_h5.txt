@@ -1,0 +1,10 @@
+hashtable 5 buckets 7 words
+bucket 0 
+bucket 1 (diam 6) (sed 3) (sit 5) 
+bucket 2 
+bucket 3 (amet 3) (ipsum 5) (lorem 5) 
+bucket 4 (dolor 4) 
+
+alphabet-sorted 7 words
+(amet 3) (diam 6) (dolor 4) (ipsum 5) (lorem 5) (sed 3) (sit 5) 
+

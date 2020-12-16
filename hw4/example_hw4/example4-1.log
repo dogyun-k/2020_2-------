@@ -1,0 +1,293 @@
+$ ./hw4-1.exe 3 input/i31.txt output/i31_4-1_h3.txt
+0.00026 seconds
+324 bytes ( 46.286 x 7 )
+
+$ cat output/i31_4-1_h3.txt
+hashtable 3 buckets 7 words
+bucket 0 (amet 3) (diam 6) (ipsum 5) (lorem 5) (sit 5) 
+bucket 1 (dolor 4) (sed 3) 
+bucket 2 
+
+alphabet-sorted 7 words
+(amet 3) (diam 6) (dolor 4) (ipsum 5) (lorem 5) (sed 3) (sit 5) 
+
+$ ./hw4-1.exe 5 input/i31.txt output/i31_4-1_h5.txt
+0.00034 seconds
+356 bytes ( 50.857 x 7 )
+
+$ cat output/i31_4-1_h5.txt
+hashtable 5 buckets 7 words
+bucket 0 
+bucket 1 (diam 6) (sed 3) (sit 5) 
+bucket 2 
+bucket 3 (amet 3) (ipsum 5) (lorem 5) 
+bucket 4 (dolor 4) 
+
+alphabet-sorted 7 words
+(amet 3) (diam 6) (dolor 4) (ipsum 5) (lorem 5) (sed 3) (sit 5) 
+
+$ ./hw4-1.exe 7 input/i31.txt output/i31_4-1_h7.txt
+0.00017 seconds
+388 bytes ( 55.429 x 7 )
+
+$ cat output/i31_4-1_h7.txt
+hashtable 7 buckets 7 words
+bucket 0 (sit 5) 
+bucket 1 (sed 3) 
+bucket 2 
+bucket 3 (amet 3) 
+bucket 4 (lorem 5) 
+bucket 5 (diam 6) (dolor 4) (ipsum 5) 
+bucket 6 
+
+alphabet-sorted 7 words
+(amet 3) (diam 6) (dolor 4) (ipsum 5) (lorem 5) (sed 3) (sit 5) 
+
+
+$ ./hw4-1.exe 11 input/imagine.txt output/imagine_4-1_h11.txt
+0.00016 seconds
+2667 bytes ( 39.806 x 67 )
+
+$ cat output/imagine_4-1_h11.txt
+hashtable 11 buckets 67 words
+bucket 0 (hunger 1) (isn 1) (nothing 1) (sharing 1) (will 2) 
+bucket 1 (be 1) (but 2) (it 2) (no 6) (us 4) 
+bucket 2 (do 1) (greed 1) (sky 1) (the 8) (world 3) 
+bucket 3 (ah 1) (as 2) (hell 1) (join 2) (live 1) (one 4) (say 2) 
+bucket 4 (heaven 1) (imagine 6) (of 1) (peace 1) (possessions 1) 
+bucket 5 (all 4) (easy 1) (need 1) (or 2) (s 3) 
+bucket 6 (i 7) (in 1) (someday 2) (t 1) (today 1) (wonder 1) 
+bucket 7 (brotherhood 1) (livin 2) (ll 2) (not 2) (people 3) (to 2) 
+bucket 8 (above 1) (for 3) (hard 1) (man 1) (may 2) (there 2) (too 1) (you 8) 
+bucket 9 (a 3) (below 1) (can 1) (countries 1) (die 1) (if 2) (life 1) 
+bucket 10 (and 3) (dreamer 2) (hope 2) (kill 1) (m 4) (only 3) (religion 1) (try 1) 
+
+alphabet-sorted 67 words
+(a 3) (above 1) (ah 1) (all 4) (and 3) (as 2) (be 1) (below 1) (brotherhood 1) (but 2) (can 1) (countries 1) (die 1) (do 1) (dreamer 2) (easy 1) (for 3) (greed 1) (hard 1) (heaven 1) (hell 1) (hope 2) (hunger 1) (i 7) (if 2) (imagine 6) (in 1) (isn 1) (it 2) (join 2) (kill 1) (life 1) (live 1) (livin 2) (ll 2) (m 4) (man 1) (may 2) (need 1) (no 6) (not 2) (nothing 1) (of 1) (one 4) (only 3) (or 2) (peace 1) (people 3) (possessions 1) (religion 1) (s 3) (say 2) (sharing 1) (sky 1) (someday 2) (t 1) (the 8) (there 2) (to 2) (today 1) (too 1) (try 1) (us 4) (will 2) (wonder 1) (world 3) (you 8) 
+
+$ ./hw4-1.exe 17 input/imagine.txt output/imagine_4-1_h17.txt
+0.00013 seconds
+2763 bytes ( 41.239 x 67 )
+
+$ cat output/imagine_4-1_h17.txt
+hashtable 17 buckets 67 words
+bucket 0 (can 1) (die 1) (it 2) (no 6) (peace 1) (sharing 1) 
+bucket 1 (and 3) (possessions 1) (today 1) 
+bucket 2 (countries 1) (heaven 1) (livin 2) 
+bucket 3 (hope 2) (hunger 1) (i 7) (if 2) (kill 1) (sky 1) 
+bucket 4 (for 3) (may 2) (need 1) (or 2) 
+bucket 5 (dreamer 2) 
+bucket 6 (someday 2) (to 2) 
+bucket 7 (all 4) (do 1) (hard 1) (isn 1) (join 2) (live 1) (m 4) (religion 1) 
+bucket 8 (as 2) (but 2) (life 1) (only 3) (world 3) 
+bucket 9 (easy 1) (greed 1) (of 1) (there 2) (wonder 1) (you 8) 
+bucket 10 (below 1) (man 1) (say 2) 
+bucket 11 (brotherhood 1) (in 1) (nothing 1) (try 1) (us 4) 
+bucket 12 (a 3) (be 1) (ll 2) 
+bucket 13 (hell 1) (s 3) 
+bucket 14 (ah 1) (not 2) (t 1) 
+bucket 15 (above 1) (the 8) (too 1) (will 2) 
+bucket 16 (imagine 6) (one 4) (people 3) 
+
+alphabet-sorted 67 words
+(a 3) (above 1) (ah 1) (all 4) (and 3) (as 2) (be 1) (below 1) (brotherhood 1) (but 2) (can 1) (countries 1) (die 1) (do 1) (dreamer 2) (easy 1) (for 3) (greed 1) (hard 1) (heaven 1) (hell 1) (hope 2) (hunger 1) (i 7) (if 2) (imagine 6) (in 1) (isn 1) (it 2) (join 2) (kill 1) (life 1) (live 1) (livin 2) (ll 2) (m 4) (man 1) (may 2) (need 1) (no 6) (not 2) (nothing 1) (of 1) (one 4) (only 3) (or 2) (peace 1) (people 3) (possessions 1) (religion 1) (s 3) (say 2) (sharing 1) (sky 1) (someday 2) (t 1) (the 8) (there 2) (to 2) (today 1) (too 1) (try 1) (us 4) (will 2) (wonder 1) (world 3) (you 8) 
+
+
+$ ./hw4-1.exe 17 input/ipsum.txt output/ipsum_4-1_h17.txt
+0.00022 seconds
+5039 bytes ( 40.967 x 123 )
+
+$ cat output/ipsum_4-1_h17.txt
+hashtable 17 buckets 123 words
+bucket 0 (aliquyam 9) (dolor 22) (elitr 9) (enim 2) (ex 2) (labore 9) (laoreet 2) (no 9) (suscipit 2) (tempor 10) (ullamcorper 2) 
+bucket 1 (copy 1) (id 1) (nostrud 2) (soluta 1) 
+bucket 2 (accusam 9) (commodo 2) (cum 1) (odio 2) (option 1) (vero 11) (wisi 2) 
+bucket 3 (blandit 2) (diam 19) (erat 11) (facer 1) (facilisi 2) (illum 3) (iusto 2) 
+bucket 4 (eos 9) (eum 3) (justo 9) (possim 1) (sanctus 9) (vel 6) (velit 3) 
+bucket 5 (articles 1) (duo 9) (elit 2) (nihil 1) (nonummy 2) 
+bucket 6 (http 1) (magna 11) (stet 9) 
+bucket 7 (esse 3) (sadipscing 9) (sea 9) 
+bucket 8 (augue 2) (consectetuer 2) (luptatum 2) (quis 2) 
+bucket 9 (aliquip 2) (assum 1) (at 11) (doming 1) (est 9) (gubergren 9) (nibh 2) (of 1) (tation 2) (tincidunt 2) 
+bucket 10 (accumsan 2) (ad 2) (consequat 5) (courtesy 1) (delenit 2) (euismod 2) (feugait 2) (feugiat 3) (iriure 3) (nam 1) (sed 19) (zzril 2) 
+bucket 11 (ea 11) (eirmod 9) (exerci 2) (imperdiet 1) (in 6) (kasd 9) (lobortis 2) (minim 2) (placerat 1) (takimata 9) (veniam 2) (volutpat 2) 
+bucket 12 (congue 1) (consetetur 9) (dolores 9) (duis 5) (eleifend 1) (nobis 1) (qui 2) (rebum 9) (ut 15) (voluptua 8) 
+bucket 13 (autem 3) (com 2) (et 40) (hendrerit 3) (nisl 2) (nulla 5) (sit 19) (te 2) (websitetips 2) 
+bucket 14 (adipiscing 2) (eu 3) (invidunt 9) (ipsum 19) 
+bucket 15 (aliquam 2) (amet 19) (clita 9) (dignissim 2) (mazim 1) (nonumy 9) 
+bucket 16 (dolore 16) (eros 2) (facilisis 3) (liber 1) (lorem 20) (molestie 3) (praesent 2) (quod 1) (vulputate 3) 
+
+alphabet-sorted 123 words
+(accumsan 2) (accusam 9) (ad 2) (adipiscing 2) (aliquam 2) (aliquip 2) (aliquyam 9) (amet 19) (articles 1) (assum 1) (at 11) (augue 2) (autem 3) (blandit 2) (clita 9) (com 2) (commodo 2) (congue 1) (consectetuer 2) (consequat 5) (consetetur 9) (copy 1) (courtesy 1) (cum 1) (delenit 2) (diam 19) (dignissim 2) (dolor 22) (dolore 16) (dolores 9) (doming 1) (duis 5) (duo 9) (ea 11) (eirmod 9) (eleifend 1) (elit 2) (elitr 9) (enim 2) (eos 9) (erat 11) (eros 2) (esse 3) (est 9) (et 40) (eu 3) (euismod 2) (eum 3) (ex 2) (exerci 2) (facer 1) (facilisi 2) (facilisis 3) (feugait 2) (feugiat 3) (gubergren 9) (hendrerit 3) (http 1) (id 1) (illum 3) (imperdiet 1) (in 6) (invidunt 9) (ipsum 19) (iriure 3) (iusto 2) (justo 9) (kasd 9) (labore 9) (laoreet 2) (liber 1) (lobortis 2) (lorem 20) (luptatum 2) (magna 11) (mazim 1) (minim 2) (molestie 3) (nam 1) (nibh 2) (nihil 1) (nisl 2) (no 9) (nobis 1) (nonummy 2) (nonumy 9) (nostrud 2) (nulla 5) (odio 2) (of 1) (option 1) (placerat 1) (possim 1) (praesent 2) (qui 2) (quis 2) (quod 1) (rebum 9) (sadipscing 9) (sanctus 9) (sea 9) (sed 19) (sit 19) (soluta 1) (stet 9) (suscipit 2) (takimata 9) (tation 2) (te 2) (tempor 10) (tincidunt 2) (ullamcorper 2) (ut 15) (vel 6) (velit 3) (veniam 2) (vero 11) (voluptua 8) (volutpat 2) (vulputate 3) (websitetips 2) (wisi 2) (zzril 2) 
+
+$ ./hw4-1.exe 53 input/ipsum.txt output/ipsum_4-1_h53.txt
+0.00032 seconds
+5615 bytes ( 45.650 x 123 )
+
+$ cat output/ipsum_4-1_h53.txt
+hashtable 53 buckets 123 words
+bucket 0 
+bucket 1 (at 11) (com 2) (enim 2) (of 1) (sadipscing 9) 
+bucket 2 (doming 1) (nihil 1) 
+bucket 3 (in 6) (odio 2) 
+bucket 4 (aliquam 2) (eirmod 9) (erat 11) (exerci 2) (veniam 2) 
+bucket 5 (augue 2) (congue 1) (et 40) (te 2) 
+bucket 6 (elit 2) (eu 3) (laoreet 2) 
+bucket 7 (articles 1) (cum 1) (gubergren 9) 
+bucket 8 (commodo 2) (esse 3) (minim 2) 
+bucket 9 (dolore 16) (eos 9) (eum 3) (ex 2) (imperdiet 1) (no 9) (nobis 1) (rebum 9) (vel 6) 
+bucket 10 (autem 3) (duo 9) (nulla 5) 
+bucket 11 (hendrerit 3) 
+bucket 12 (mazim 1) 
+bucket 13 (dignissim 2) (duis 5) (lorem 20) 
+bucket 14 (dolor 22) (elitr 9) (est 9) (nisl 2) 
+bucket 15 (aliquip 2) 
+bucket 16 (euismod 2) 
+bucket 17 (eros 2) (illum 3) (qui 2) (quod 1) 
+bucket 18 (dolores 9) (molestie 3) (praesent 2) (sit 19) (velit 3) 
+bucket 19 (aliquyam 9) (copy 1) (tation 2) 
+bucket 20 (iriure 3) (vero 11) (wisi 2) 
+bucket 21 (ut 15) 
+bucket 22 
+bucket 23 (assum 1) 
+bucket 24 (http 1) (stet 9) (tincidunt 2) (ullamcorper 2) 
+bucket 25 (consequat 5) 
+bucket 26 (quis 2) 
+bucket 27 (sanctus 9) (tempor 10) 
+bucket 28 (consectetuer 2) (ipsum 19) (soluta 1) 
+bucket 29 (option 1) 
+bucket 30 (lobortis 2) 
+bucket 31 (possim 1) 
+bucket 32 
+bucket 33 (eleifend 1) (invidunt 9) 
+bucket 34 (iusto 2) 
+bucket 35 (justo 9) 
+bucket 36 (facer 1) (suscipit 2) 
+bucket 37 (websitetips 2) 
+bucket 38 (ad 2) 
+bucket 39 (ea 11) (magna 11) 
+bucket 40 (consetetur 9) (diam 19) 
+bucket 41 (facilisi 2) (nostrud 2) (zzril 2) 
+bucket 42 (nonumy 9) 
+bucket 43 
+bucket 44 (accusam 9) (adipiscing 2) (luptatum 2) 
+bucket 45 (blandit 2) (nonummy 2) 
+bucket 46 (courtesy 1) (id 1) (labore 9) (nibh 2) 
+bucket 47 (volutpat 2) 
+bucket 48 (accumsan 2) (clita 9) (kasd 9) (sea 9) (voluptua 8) (vulputate 3) 
+bucket 49 (liber 1) (placerat 1) (takimata 9) 
+bucket 50 (facilisis 3) 
+bucket 51 (nam 1) (sed 19) 
+bucket 52 (amet 19) (delenit 2) (feugait 2) (feugiat 3) 
+
+alphabet-sorted 123 words
+(accumsan 2) (accusam 9) (ad 2) (adipiscing 2) (aliquam 2) (aliquip 2) (aliquyam 9) (amet 19) (articles 1) (assum 1) (at 11) (augue 2) (autem 3) (blandit 2) (clita 9) (com 2) (commodo 2) (congue 1) (consectetuer 2) (consequat 5) (consetetur 9) (copy 1) (courtesy 1) (cum 1) (delenit 2) (diam 19) (dignissim 2) (dolor 22) (dolore 16) (dolores 9) (doming 1) (duis 5) (duo 9) (ea 11) (eirmod 9) (eleifend 1) (elit 2) (elitr 9) (enim 2) (eos 9) (erat 11) (eros 2) (esse 3) (est 9) (et 40) (eu 3) (euismod 2) (eum 3) (ex 2) (exerci 2) (facer 1) (facilisi 2) (facilisis 3) (feugait 2) (feugiat 3) (gubergren 9) (hendrerit 3) (http 1) (id 1) (illum 3) (imperdiet 1) (in 6) (invidunt 9) (ipsum 19) (iriure 3) (iusto 2) (justo 9) (kasd 9) (labore 9) (laoreet 2) (liber 1) (lobortis 2) (lorem 20) (luptatum 2) (magna 11) (mazim 1) (minim 2) (molestie 3) (nam 1) (nibh 2) (nihil 1) (nisl 2) (no 9) (nobis 1) (nonummy 2) (nonumy 9) (nostrud 2) (nulla 5) (odio 2) (of 1) (option 1) (placerat 1) (possim 1) (praesent 2) (qui 2) (quis 2) (quod 1) (rebum 9) (sadipscing 9) (sanctus 9) (sea 9) (sed 19) (sit 19) (soluta 1) (stet 9) (suscipit 2) (takimata 9) (tation 2) (te 2) (tempor 10) (tincidunt 2) (ullamcorper 2) (ut 15) (vel 6) (velit 3) (veniam 2) (vero 11) (voluptua 8) (volutpat 2) (vulputate 3) (websitetips 2) (wisi 2) (zzril 2) 
+
+
+$ ./hw4-1.exe 97 input/ihaveadream.txt output/ihaveadream_4-1_h97.txt
+0.00077 seconds
+22551 bytes ( 41.994 x 537 )
+
+$ cat output/ihaveadream_4-1_h97.txt
+hashtable 97 buckets 537 words
+bucket 0 (a 38) (brothers 2) (citizens 1) (militancy 1) (mobility 1) (tennessee 1) 
+bucket 1 (happiness 1) (storms 1) 
+bucket 2 (joyous 1) (mountain 4) (stripped 1) 
+bucket 3 (business 1) (threshold 1) (truths 1) 
+bucket 4 (bad 1) (injustice 3) (something 1) (struggle 2) 
+bucket 5 (be 33) (equality 1) (lookout 1) (sisters 1) 
+bucket 6 (hilltops 1) 
+bucket 7 (horrors 1) (northern 1) (withering 1) 
+bucket 8 (i 16) (overlook 1) (unmindful 1) 
+bucket 9 (governor 1) (promises 1) (protest 1) 
+bucket 10 (had 1) (history 2) (redemptive 1) 
+bucket 11 (emancipation 1) (face 1) (he 1) (quicksands 1) (returns 1) (wrongful 1) 
+bucket 12 (am 2) (country 1) (segregation 2) 
+bucket 13 (an 4) (back 9) (if 2) 
+bucket 14 (ahead 1) (difficulties 1) 
+bucket 15 (can 4) (security 1) 
+bucket 16 (able 8) (and 54) (discontent 1) 
+bucket 17 (poverty 1) 
+bucket 18 (as 20) (came 2) (died 1) (lead 1) (luxury 1) (s 7) (transform 1) 
+bucket 19 (at 4) (captivity 1) (made 3) (of 99) (spiritual 1) 
+bucket 20 (ago 1) (brotherhood 3) (end 2) (go 9) (marvelous 1) (mountains 1) (pursuit 1) 
+bucket 21 (are 8) (curvaceous 1) (in 22) 
+bucket 22 (all 7) (been 2) (brutality 2) (situation 1) 
+bucket 23 (god 4) 
+bucket 24 (alabama 3) (bank 1) (bitterness 1) (black 4) (off 2) (red 1) 
+bucket 25 (by 8) (check 5) (distrust 1) (has 5) (sweltering 3) (transformed 1) (ve 3) 
+bucket 26 (insufficient 2) (is 23) (make 3) (prodigious 1) (see 1) (we 33) 
+bucket 27 (again 2) (cash 2) (community 1) (day 12) (fall 1) (gain 1) (it 6) (land 4) (no 3) (on 5) 
+bucket 28 (her 1) (high 1) (jail 2) (life 2) (old 1) (proclamation 1) 
+bucket 29 (basic 1) (men 6) (momentous 1) 
+bucket 30 (citizenship 1) (creed 1) (dark 1) (foundations 1) (free 5) (heat 2) (symphony 1) (the 103) 
+bucket 31 (needed 1) (one 13) (or 1) 
+bucket 32 (come 10) (deeds 1) (have 18) (here 3) (palace 1) (place 1) (real 1) (so 4) (tomorrow 1) (whirlwinds 1) 
+bucket 33 (engage 1) (hew 1) (his 3) (inextricably 1) (like 2) (ocean 1) (take 1) (to 59) 
+bucket 34 (beacon 1) (decree 1) (let 13) (thee 2) (tied 1) 
+bucket 35 (changed 1) (demand 1) (fatal 1) (hold 1) (mountainside 2) (nullification 1) (table 1) (up 4) 
+bucket 36 (dream 12) (for 9) (heir 1) (invigorating 1) (leads 1) (my 5) (seek 1) 
+bucket 37 (become 1) (cup 1) (hill 2) (persecution 1) 
+bucket 38 (five 1) (hood 1) (march 1) (racial 2) (self 2) (us 4) 
+bucket 39 (areas 1) (capped 1) (faith 5) (give 1) (left 1) (new 5) (oppression 1) (shake 1) 
+bucket 40 (but 6) (fierce 1) (hope 4) (robbed 1) (was 2) 
+bucket 41 (hands 2) (path 1) 
+bucket 42 (alone 1) (even 2) (force 2) (say 2) 
+bucket 43 (also 1) (america 5) (lift 1) (pennsylvania 1) (plane 1) (pledge 1) (rock 1) (time 5) (walk 2) (who 4) 
+bucket 44 (join 3) (live 2) (long 6) (nor 1) (ring 12) (rude 1) (sacred 1) (speed 1) 
+bucket 45 (flesh 1) (its 3) (judged 1) (lord 1) (sing 3) (sit 1) (that 24) (tis 1) 
+bucket 46 (cells 1) (discrimination 1) (drug 1) (great 5) (marked 1) (not 13) (seared 1) (when 7) (which 5) (yes 1) 
+bucket 47 (finds 1) (low 1) (plain 1) (pride 1) (rise 3) (shall 5) (were 1) 
+bucket 48 (blow 1) (bodies 1) (chains 1) (from 18) (last 3) (some 3) (well 1) (what 1) 
+bucket 49 (created 1) (many 1) (mississippi 4) (now 6) (own 1) (skin 1) (thank 1) 
+bucket 50 (2 1) (civil 1) (exile 1) (flames 1) (hatred 1) (note 3) (places 2) 
+bucket 51 (bound 1) (equal 1) (fresh 1) (later 4) (light 1) (our 17) (pass 1) (there 6) (three 1) (tribulations 1) (warm 1) 
+bucket 52 (down 4) (given 1) (lips 1) (signed 1) (these 1) (this 20) (will 27) 
+bucket 53 (believe 2) (city 1) (hamlet 1) (island 1) (jews 1) (night 1) (out 3) (stand 3) (steam 1) 
+bucket 54 (gaining 1) (into 4) (negro 15) (police 2) (prosperity 1) (slave 1) (solid 1) (they 3) (where 3) 
+bucket 55 (asking 1) (capital 1) (georgia 3) (having 1) (hills 1) (larger 1) (score 1) (their 8) 
+bucket 56 (american 4) (four 1) (heavy 1) (meaning 2) (pray 1) (riches 1) (sadly 1) (with 16) 
+bucket 57 (boys 2) (demonstration 1) (remind 1) (right 1) (sense 1) 
+bucket 58 (allow 2) (bright 1) (color 2) (oasis 1) (rest 1) (tranquility 1) (vast 1) (vote 2) (you 8) 
+bucket 59 (cities 2) (daybreak 1) (freedom 20) (funds 2) (never 3) (protestants 1) 
+bucket 60 (girls 2) (manacles 1) (midst 1) (promissory 2) (state 3) (today 9) (true 2) (white 6) 
+bucket 61 (cannot 6) (deeply 1) (happy 1) (lodging 1) (village 1) 
+bucket 62 (evidenced 1) (fatigue 1) (granted 1) (lives 1) (only 2) (those 2) (upon 1) 
+bucket 63 (people 3) (signs 1) (sons 2) (soul 1) (work 2) (years 5) 
+bucket 64 (crooked 1) (exalted 1) (revealed 1) (rough 1) (shadow 1) (winds 1) 
+bucket 65 (carolina 1) (children 5) (despair 2) (emerges 1) (himself 1) (instead 1) (whose 1) (york 2) 
+bucket 66 (engulfed 1) (jangling 1) (meeting 1) (spot 1) 
+bucket 67 (battered 1) (hundred 4) (nation 11) (snow 1) (still 4) (sweet 1) (tranquilizing 1) 
+bucket 68 (character 1) (cooling 1) (friends 1) (refuse 2) (stone 2) 
+bucket 69 (defaulted 1) (former 2) (ghetto 1) (heights 1) (must 8) (realize 2) (righteousness 1) (turn 1) (usual 1) 
+bucket 70 (constitution 1) (every 10) (fathers 1) (stream 1) (victim 1) (would 2) 
+bucket 71 (believes 1) (material 1) (rolls 1) (rooted 1) (until 4) (valley 3) 
+bucket 72 (beginning 1) (concerned 1) (evident 1) (glory 1) (hallowed 1) (happens 1) (little 3) (majestic 1) (neither 1) (signing 1) (slaves 2) (travel 1) 
+bucket 73 (conduct 1) (desolate 1) (hotels 1) (interposition 1) (rockies 1) (smaller 1) (though 1) (trials 1) 
+bucket 74 (degenerate 1) (moment 1) (unearned 1) (words 3) 
+bucket 75 (always 1) (colorado 1) (creative 2) (crippled 1) (insofar 1) (rights 3) (your 1) 
+bucket 76 (awakening 1) (mighty 2) (wrote 1) 
+bucket 77 (lonely 1) (pilgrim 1) (presence 1) (quest 2) (shameful 1) (staggered 1) (violence 1) 
+bucket 78 (california 1) (democracy 1) (drinking 1) (molehill 1) (motels 1) (nineteen 1) (republic 1) (south 2) (whites 1) 
+bucket 79 (slums 1) 
+bucket 80 (justice 8) (nothing 1) (slopes 1) (wallow 1) (waters 1) 
+bucket 81 (catholics 1) (dignity 2) (opportunity 1) 
+bucket 82 (forever 1) (racists 1) 
+bucket 83 (discords 1) (gentiles 1) (narrow 1) (reality 1) (satisfied 8) (stating 1) (summer 1) 
+bucket 84 (autumn 1) (content 2) (liberty 2) 
+bucket 85 (corners 1) (dripping 1) (physical 2) (unalienable 1) 
+bucket 86 (alleghenies 1) (guaranteed 1) (independence 1) (knowing 2) (revolt 1) (urgency 2) 
+bucket 87 (almighty 1) (devotees 1) (ghettos 1) (greatest 1) 
+bucket 88 (beautiful 1) (dramatize 1) (guilty 1) (hampshire 1) (owners 1) (process 1) (promise 1) (thirst 1) 
+bucket 89 (destiny 2) (society 1) (sunlit 1) (vaults 1) 
+bucket 90 (discipline 1) (languished 1) (magnificent 1) (symbolic 1) (together 7) 
+bucket 91 (declaration 1) (legitimate 1) (somehow 1) (vicious 1) 
+bucket 92 (highways 1) (honoring 1) (louisiana 1) (satisfy 1) (sixty 1) 
+bucket 93 (continue 2) (rightful 1) 
+bucket 94 (condition 1) (obligation 1) (straight 1) 
+bucket 95 (bankrupt 1) (gradualism 1) (heightening 1) (millions 1) 
+bucket 96 (architects 1) (obvious 1) (suffering 2) (unspeakable 1) (veterans 1) 
+
+alphabet-sorted 537 words
+(2 1) (a 38) (able 8) (again 2) (ago 1) (ahead 1) (alabama 3) (all 7) (alleghenies 1) (allow 2) (almighty 1) (alone 1) (also 1) (always 1) (am 2) (america 5) (american 4) (an 4) (and 54) (architects 1) (are 8) (areas 1) (as 20) (asking 1) (at 4) (autumn 1) (awakening 1) (back 9) (bad 1) (bank 1) (bankrupt 1) (basic 1) (battered 1) (be 33) (beacon 1) (beautiful 1) (become 1) (been 2) (beginning 1) (believe 2) (believes 1) (bitterness 1) (black 4) (blow 1) (bodies 1) (bound 1) (boys 2) (bright 1) (brotherhood 3) (brothers 2) (brutality 2) (business 1) (but 6) (by 8) (california 1) (came 2) (can 4) (cannot 6) (capital 1) (capped 1) (captivity 1) (carolina 1) (cash 2) (catholics 1) (cells 1) (chains 1) (changed 1) (character 1) (check 5) (children 5) (cities 2) (citizens 1) (citizenship 1) (city 1) (civil 1) (color 2) (colorado 1) (come 10) (community 1) (concerned 1) (condition 1) (conduct 1) (constitution 1) (content 2) (continue 2) (cooling 1) (corners 1) (country 1) (created 1) (creative 2) (creed 1) (crippled 1) (crooked 1) (cup 1) (curvaceous 1) (dark 1) (day 12) (daybreak 1) (declaration 1) (decree 1) (deeds 1) (deeply 1) (defaulted 1) (degenerate 1) (demand 1) (democracy 1) (demonstration 1) (desolate 1) (despair 2) (destiny 2) (devotees 1) (died 1) (difficulties 1) (dignity 2) (discipline 1) (discontent 1) (discords 1) (discrimination 1) (distrust 1) (down 4) (dramatize 1) (dream 12) (drinking 1) (dripping 1) (drug 1) (emancipation 1) (emerges 1) (end 2) (engage 1) (engulfed 1) (equal 1) (equality 1) (even 2) (every 10) (evidenced 1) (evident 1) (exalted 1) (exile 1) (face 1) (faith 5) (fall 1) (fatal 1) (fathers 1) (fatigue 1) (fierce 1) (finds 1) (five 1) (flames 1) (flesh 1) (for 9) (force 2) (forever 1) (former 2) (foundations 1) (four 1) (free 5) (freedom 20) (fresh 1) (friends 1) (from 18) (funds 2) (gain 1) (gaining 1) (gentiles 1) (georgia 3) (ghetto 1) (ghettos 1) (girls 2) (give 1) (given 1) (glory 1) (go 9) (god 4) (governor 1) (gradualism 1) (granted 1) (great 5) (greatest 1) (guaranteed 1) (guilty 1) (had 1) (hallowed 1) (hamlet 1) (hampshire 1) (hands 2) (happens 1) (happiness 1) (happy 1) (has 5) (hatred 1) (have 18) (having 1) (he 1) (heat 2) (heavy 1) (heightening 1) (heights 1) (heir 1) (her 1) (here 3) (hew 1) (high 1) (highways 1) (hill 2) (hills 1) (hilltops 1) (himself 1) (his 3) (history 2) (hold 1) (honoring 1) (hood 1) (hope 4) (horrors 1) (hotels 1) (hundred 4) (i 16) (if 2) (in 22) (independence 1) (inextricably 1) (injustice 3) (insofar 1) (instead 1) (insufficient 2) (interposition 1) (into 4) (invigorating 1) (is 23) (island 1) (it 6) (its 3) (jail 2) (jangling 1) (jews 1) (join 3) (joyous 1) (judged 1) (justice 8) (knowing 2) (land 4) (languished 1) (larger 1) (last 3) (later 4) (lead 1) (leads 1) (left 1) (legitimate 1) (let 13) (liberty 2) (life 2) (lift 1) (light 1) (like 2) (lips 1) (little 3) (live 2) (lives 1) (lodging 1) (lonely 1) (long 6) (lookout 1) (lord 1) (louisiana 1) (low 1) (luxury 1) (made 3) (magnificent 1) (majestic 1) (make 3) (manacles 1) (many 1) (march 1) (marked 1) (marvelous 1) (material 1) (meaning 2) (meeting 1) (men 6) (midst 1) (mighty 2) (militancy 1) (millions 1) (mississippi 4) (mobility 1) (molehill 1) (moment 1) (momentous 1) (motels 1) (mountain 4) (mountains 1) (mountainside 2) (must 8) (my 5) (narrow 1) (nation 11) (needed 1) (negro 15) (neither 1) (never 3) (new 5) (night 1) (nineteen 1) (no 3) (nor 1) (northern 1) (not 13) (note 3) (nothing 1) (now 6) (nullification 1) (oasis 1) (obligation 1) (obvious 1) (ocean 1) (of 99) (off 2) (old 1) (on 5) (one 13) (only 2) (opportunity 1) (oppression 1) (or 1) (our 17) (out 3) (overlook 1) (own 1) (owners 1) (palace 1) (pass 1) (path 1) (pennsylvania 1) (people 3) (persecution 1) (physical 2) (pilgrim 1) (place 1) (places 2) (plain 1) (plane 1) (pledge 1) (police 2) (poverty 1) (pray 1) (presence 1) (pride 1) (process 1) (proclamation 1) (prodigious 1) (promise 1) (promises 1) (promissory 2) (prosperity 1) (protest 1) (protestants 1) (pursuit 1) (quest 2) (quicksands 1) (racial 2) (racists 1) (real 1) (reality 1) (realize 2) (red 1) (redemptive 1) (refuse 2) (remind 1) (republic 1) (rest 1) (returns 1) (revealed 1) (revolt 1) (riches 1) (right 1) (righteousness 1) (rightful 1) (rights 3) (ring 12) (rise 3) (robbed 1) (rock 1) (rockies 1) (rolls 1) (rooted 1) (rough 1) (rude 1) (s 7) (sacred 1) (sadly 1) (satisfied 8) (satisfy 1) (say 2) (score 1) (seared 1) (security 1) (see 1) (seek 1) (segregation 2) (self 2) (sense 1) (shadow 1) (shake 1) (shall 5) (shameful 1) (signed 1) (signing 1) (signs 1) (sing 3) (sisters 1) (sit 1) (situation 1) (sixty 1) (skin 1) (slave 1) (slaves 2) (slopes 1) (slums 1) (smaller 1) (snow 1) (so 4) (society 1) (solid 1) (some 3) (somehow 1) (something 1) (sons 2) (soul 1) (south 2) (speed 1) (spiritual 1) (spot 1) (staggered 1) (stand 3) (state 3) (stating 1) (steam 1) (still 4) (stone 2) (storms 1) (straight 1) (stream 1) (stripped 1) (struggle 2) (suffering 2) (summer 1) (sunlit 1) (sweet 1) (sweltering 3) (symbolic 1) (symphony 1) (table 1) (take 1) (tennessee 1) (thank 1) (that 24) (the 103) (thee 2) (their 8) (there 6) (these 1) (they 3) (thirst 1) (this 20) (those 2) (though 1) (three 1) (threshold 1) (tied 1) (time 5) (tis 1) (to 59) (today 9) (together 7) (tomorrow 1) (tranquility 1) (tranquilizing 1) (transform 1) (transformed 1) (travel 1) (trials 1) (tribulations 1) (true 2) (truths 1) (turn 1) (unalienable 1) (unearned 1) (unmindful 1) (unspeakable 1) (until 4) (up 4) (upon 1) (urgency 2) (us 4) (usual 1) (valley 3) (vast 1) (vaults 1) (ve 3) (veterans 1) (vicious 1) (victim 1) (village 1) (violence 1) (vote 2) (walk 2) (wallow 1) (warm 1) (was 2) (waters 1) (we 33) (well 1) (were 1) (what 1) (when 7) (where 3) (which 5) (whirlwinds 1) (white 6) (whites 1) (who 4) (whose 1) (will 27) (winds 1) (with 16) (withering 1) (words 3) (work 2) (would 2) (wrongful 1) (wrote 1) (years 5) (yes 1) (york 2) (you 8) (your 1) 
+

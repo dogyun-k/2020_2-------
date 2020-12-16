@@ -1,0 +1,16 @@
+hashtable 11 buckets 67 words
+bucket 0 (hunger 1) (isn 1) (nothing 1) (sharing 1) (will 2) 
+bucket 1 (be 1) (but 2) (it 2) (no 6) (us 4) 
+bucket 2 (do 1) (greed 1) (sky 1) (the 8) (world 3) 
+bucket 3 (ah 1) (as 2) (hell 1) (join 2) (live 1) (one 4) (say 2) 
+bucket 4 (heaven 1) (imagine 6) (of 1) (peace 1) (possessions 1) 
+bucket 5 (all 4) (easy 1) (need 1) (or 2) (s 3) 
+bucket 6 (i 7) (in 1) (someday 2) (t 1) (today 1) (wonder 1) 
+bucket 7 (brotherhood 1) (livin 2) (ll 2) (not 2) (people 3) (to 2) 
+bucket 8 (above 1) (for 3) (hard 1) (man 1) (may 2) (there 2) (too 1) (you 8) 
+bucket 9 (a 3) (below 1) (can 1) (countries 1) (die 1) (if 2) (life 1) 
+bucket 10 (and 3) (dreamer 2) (hope 2) (kill 1) (m 4) (only 3) (religion 1) (try 1) 
+
+alphabet-sorted 67 words
+(a 3) (above 1) (ah 1) (all 4) (and 3) (as 2) (be 1) (below 1) (brotherhood 1) (but 2) (can 1) (countries 1) (die 1) (do 1) (dreamer 2) (easy 1) (for 3) (greed 1) (hard 1) (heaven 1) (hell 1) (hope 2) (hunger 1) (i 7) (if 2) (imagine 6) (in 1) (isn 1) (it 2) (join 2) (kill 1) (life 1) (live 1) (livin 2) (ll 2) (m 4) (man 1) (may 2) (need 1) (no 6) (not 2) (nothing 1) (of 1) (one 4) (only 3) (or 2) (peace 1) (people 3) (possessions 1) (religion 1) (s 3) (say 2) (sharing 1) (sky 1) (someday 2) (t 1) (the 8) (there 2) (to 2) (today 1) (too 1) (try 1) (us 4) (will 2) (wonder 1) (world 3) (you 8) 
+

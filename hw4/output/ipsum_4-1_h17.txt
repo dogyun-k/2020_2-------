@@ -1,0 +1,22 @@
+hashtable 17 buckets 123 words
+bucket 0 (aliquyam 9) (dolor 22) (elitr 9) (enim 2) (ex 2) (labore 9) (laoreet 2) (no 9) (suscipit 2) (tempor 10) (ullamcorper 2) 
+bucket 1 (copy 1) (id 1) (nostrud 2) (soluta 1) 
+bucket 2 (accusam 9) (commodo 2) (cum 1) (odio 2) (option 1) (vero 11) (wisi 2) 
+bucket 3 (blandit 2) (diam 19) (erat 11) (facer 1) (facilisi 2) (illum 3) (iusto 2) 
+bucket 4 (eos 9) (eum 3) (justo 9) (possim 1) (sanctus 9) (vel 6) (velit 3) 
+bucket 5 (articles 1) (duo 9) (elit 2) (nihil 1) (nonummy 2) 
+bucket 6 (http 1) (magna 11) (stet 9) 
+bucket 7 (esse 3) (sadipscing 9) (sea 9) 
+bucket 8 (augue 2) (consectetuer 2) (luptatum 2) (quis 2) 
+bucket 9 (aliquip 2) (assum 1) (at 11) (doming 1) (est 9) (gubergren 9) (nibh 2) (of 1) (tation 2) (tincidunt 2) 
+bucket 10 (accumsan 2) (ad 2) (consequat 5) (courtesy 1) (delenit 2) (euismod 2) (feugait 2) (feugiat 3) (iriure 3) (nam 1) (sed 19) (zzril 2) 
+bucket 11 (ea 11) (eirmod 9) (exerci 2) (imperdiet 1) (in 6) (kasd 9) (lobortis 2) (minim 2) (placerat 1) (takimata 9) (veniam 2) (volutpat 2) 
+bucket 12 (congue 1) (consetetur 9) (dolores 9) (duis 5) (eleifend 1) (nobis 1) (qui 2) (rebum 9) (ut 15) (voluptua 8) 
+bucket 13 (autem 3) (com 2) (et 40) (hendrerit 3) (nisl 2) (nulla 5) (sit 19) (te 2) (websitetips 2) 
+bucket 14 (adipiscing 2) (eu 3) (invidunt 9) (ipsum 19) 
+bucket 15 (aliquam 2) (amet 19) (clita 9) (dignissim 2) (mazim 1) (nonumy 9) 
+bucket 16 (dolore 16) (eros 2) (facilisis 3) (liber 1) (lorem 20) (molestie 3) (praesent 2) (quod 1) (vulputate 3) 
+
+alphabet-sorted 123 words
+(accumsan 2) (accusam 9) (ad 2) (adipiscing 2) (aliquam 2) (aliquip 2) (aliquyam 9) (amet 19) (articles 1) (assum 1) (at 11) (augue 2) (autem 3) (blandit 2) (clita 9) (com 2) (commodo 2) (congue 1) (consectetuer 2) (consequat 5) (consetetur 9) (copy 1) (courtesy 1) (cum 1) (delenit 2) (diam 19) (dignissim 2) (dolor 22) (dolore 16) (dolores 9) (doming 1) (duis 5) (duo 9) (ea 11) (eirmod 9) (eleifend 1) (elit 2) (elitr 9) (enim 2) (eos 9) (erat 11) (eros 2) (esse 3) (est 9) (et 40) (eu 3) (euismod 2) (eum 3) (ex 2) (exerci 2) (facer 1) (facilisi 2) (facilisis 3) (feugait 2) (feugiat 3) (gubergren 9) (hendrerit 3) (http 1) (id 1) (illum 3) (imperdiet 1) (in 6) (invidunt 9) (ipsum 19) (iriure 3) (iusto 2) (justo 9) (kasd 9) (labore 9) (laoreet 2) (liber 1) (lobortis 2) (lorem 20) (luptatum 2) (magna 11) (mazim 1) (minim 2) (molestie 3) (nam 1) (nibh 2) (nihil 1) (nisl 2) (no 9) (nobis 1) (nonummy 2) (nonumy 9) (nostrud 2) (nulla 5) (odio 2) (of 1) (option 1) (placerat 1) (possim 1) (praesent 2) (qui 2) (quis 2) (quod 1) (rebum 9) (sadipscing 9) (sanctus 9) (sea 9) (sed 19) (sit 19) (soluta 1) (stet 9) (suscipit 2) (takimata 9) (tation 2) (te 2) (tempor 10) (tincidunt 2) (ullamcorper 2) (ut 15) (vel 6) (velit 3) (veniam 2) (vero 11) (voluptua 8) (volutpat 2) (vulputate 3) (websitetips 2) (wisi 2) (zzril 2) 
+

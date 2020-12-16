@@ -1,0 +1,2 @@
+41 
+str replace old new max parameters old this is old substring to be replaced new this is new substring which would replace old substring max if this optional argument max is given only the first count occurrences are replaced c 2020
