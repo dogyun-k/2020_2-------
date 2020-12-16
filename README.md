@@ -2,7 +2,7 @@
 
 
 ### <a href = https://github.com/dogyun-k/2020_2-Algorithms/tree/master/hw1>과제 1</a>
-- c 언어 사용능력
+c 언어 사용능력
 
 ### <a href = https://github.com/dogyun-k/2020_2-Algorithms/tree/master/hw2>과제 2</a>
 Sort : bubble, selection, insertion
